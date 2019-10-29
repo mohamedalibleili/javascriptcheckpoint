@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <img src="Logo.png" alt="introuvable">
+    <ul>
+        <a href="index.html"><li>home</li></a>
+        <a href="courses.html"><li>courses</li></a>
+        <a href="contact.html"><li>contact</li></a>
+    </ul>
+    <center>
+        <h1>COURSES</h1>
+        <br>
+        <h3>feedback</h3>
+        <button onclick="changebold()">gras</button>
+        <button onclick="changeitalic()">Italique</button>
+        <button onclick="changeunderline()">Underline</button>
+        <select onchange="changesize(this)">
+            <option value="20px">20px</option>
+            <option value="50px">50px</option>
+        </select>
+        <select onchange="changefont(this)">
+            <option value="Arial">Arial</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Times New Roman">Roman</option>
+        </select>
+        <br><br><br>
+        <textarea id="message" style="height: 200px; width: 300px;"></textarea>
+     </center>
+</body>
+<script src="main.js"></script>
+</html>
